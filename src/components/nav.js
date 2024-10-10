@@ -1,15 +1,25 @@
 import { useState } from "react";
-import { BarChartLineFill } from "react-bootstrap-icons";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const [dropOpen, setDropOpen] = useState(false);
+
   const toggleButton = () => {
     setIsOpen(!isOpen);
   };
+  const handleMouseEnter = () => {
+    setDropOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    setDropOpen(false);
+  };  
+ 
   return (
     <nav className="navbar navbar-expand-lg">
-      <div className="container">
+      <div className="container"onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}>
         <a className="navbar-brand" href="#" style={{paddingRight:'20px'}}>
           <img style={{width:'100px'}} src="./hesed/logo2.jpeg"/>
         </a>
@@ -26,14 +36,16 @@ export default function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}>
-          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0"
+      >
             <li className="nav-item">
               <div class="dropdown">
-                <button class="dropbtn">Know us <i class="bi bi-chevron-down"></i></button>
+                <button className="dropbtn"  >Know us <i class="bi bi-chevron-down"></i></button>
                 <div class="dropdown-content">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
+                  <a href="#">Mission and Vision</a>
+                  <a href="#">Our history</a>
+                  <a href="#">Affilitions</a>
+                  <a href="#">Patnership and Cordinations</a>
                 </div>
               </div>
             </li>
@@ -41,9 +53,10 @@ export default function Navbar() {
             <div class="dropdown">
                 <button class="dropbtn">What We Do <i class="bi bi-chevron-down"></i></button>
                 <div class="dropdown-content">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
+                  <a href="#">Health</a>
+                  <a href="#">Social Protection & Support</a>
+                  <a href="#">Livelihoods</a>
+                  <a href="#">Capacity Building</a>
                 </div>
               </div>
             </li>
@@ -61,9 +74,9 @@ export default function Navbar() {
             <div class="dropdown">
                 <button class="dropbtn">Get Involved <i class="bi bi-chevron-down"></i></button>
                 <div class="dropdown-content">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
+                  <a href="#">Volunteer</a>
+                  <a href="#">How to Participate</a>
+                  <a href="#">Afya Zaidi Project Consultancy</a>
                 </div>
               </div>
             </li>

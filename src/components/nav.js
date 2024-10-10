@@ -11,7 +11,7 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg">
       <div className="container">
         <a className="navbar-brand" href="#" style={{paddingRight:'20px'}}>
-          <img src="./hesed/logo.png"/>
+          <img style={{width:'100px'}} src="./hesed/logo2.jpeg"/>
         </a>
         <button
           className="navbar-toggler"

@@ -36,7 +36,7 @@ export default function Sectionfour () {
                         height:"18rem",
                         padding:'10px', 
                         marginRight:'20px',
-                        borderRadius:'10px'
+                        borderRadius:'30px'
                         }}>
                         <i class="bi bi-person-gear"></i>
                         <h3>Health</h3>
@@ -52,7 +52,7 @@ export default function Sectionfour () {
                         height:"18rem",
                         padding:'10px', 
                         marginRight:'20px',
-                        borderRadius:'10px'
+                        borderRadius:'30px'
                         }}>
                         <i class="bi bi-person-gear"></i>
                         <h3>Health</h3>
@@ -68,7 +68,7 @@ export default function Sectionfour () {
                         height:"18rem",
                         padding:'10px', 
                         marginRight:'20px',
-                        borderRadius:'10px'
+                        borderRadius:'30px'
                         }}>
                         <i class="bi bi-person-gear"></i>
                         <h3>Health</h3>

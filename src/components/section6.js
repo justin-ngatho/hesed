@@ -4,7 +4,7 @@ import Button from "react-bootstrap/esm/Button";
 export default function SectionSix () {
 
     return (
-      <div className="section-six-main" style={{backgroundImage:"url(./hesed/hero2.jpg)"}}>
+      <div className="section-six-main" style={{backgroundImage:"url(./hesed/hero2.jpg)",backgroundAttachment:'fixed',backgroundRepeat:'no-repeat',}}>
         <div className="section-six">
           <div className="section-six-left">
             <h2> Donate Towards A Worthy Course</h2>

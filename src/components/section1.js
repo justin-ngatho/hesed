@@ -8,7 +8,6 @@ export default function SectionOne () {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         color:"white"
-        
     };
     return ( 
         <header className="section-one" style={myStyle}>

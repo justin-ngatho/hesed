@@ -19,7 +19,7 @@ export default function SectionThreeThree() {
     return (
         <header className='section-two'>
             <div className='section-two-content'>
-        <Card style={{ width: '80vw', width: "80vw", backgroundColor: "red", borderColor: "white" }}>
+        <Card style={{ width: '80vw', width: "80vw", backgroundColor: "red", borderColor: "white", margin:'0 auto' }}>
       <ListGroup variant="flush">
         <ListGroup.Item style={{ backgroundColor: 'red', borderWidth: '1px', 
              textTransform:'uppercase', color:'white', fontWeight:'bolder',cursor: 'pointer' }}>
@@ -124,7 +124,7 @@ To alleviate poverty, promote access to healthcare services and improve the soci
         <h1 style={{color:'black', fontWeight:'bolder' }}>Our Key Plillars</h1>
         <p style={{padding:'10px 20%'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-
+           
         <div className='section-two-two-content' style={{display:'flex', padding: '10px 10%'}}>
             <div style={{padding: '10px 30px'}}>
                 <img src='./hesed/service-thumb-1.jpg' style={{width:'100px', height:'100px'}}/>
@@ -143,10 +143,10 @@ To alleviate poverty, promote access to healthcare services and improve the soci
                  <h2>Stop GBV</h2>
                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
             </div>
-            
+            </div>
         </div>    
         
-      </div>
+      
         </header>
     )
 }

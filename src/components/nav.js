@@ -21,7 +21,7 @@ export default function Navbar() {
       <div className="container"onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}>
         <a className="navbar-brand" href="#" style={{paddingRight:'20px'}}>
-          <img style={{width:'100px'}} src="./hesed/logo.jpeg"/>
+          <img style={{width:'100px'}} src="./hesed/logo.png"/>
         </a>
         <button
           className="navbar-toggler"

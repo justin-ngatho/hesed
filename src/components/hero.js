@@ -9,25 +9,21 @@ function Hero() {
 
   return (
     <div className='container-carousel'>
-    <Carousel style={{}} interval={null}>
+    <Carousel style={{}} interval={null} >
       
       <Carousel.Item>
         <img className="d-block w-100 img-fluid" src="./hesed/hero1.jpg" alt="image" />
         
           <div className="card-body">
             <br/>
-            <h5 className="card-title">Card title</h5>
+            <h5 className="card-title">A Society With Access To All Basic Rights</h5>
             <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content. 
-                          
+            HESED Africa works mainly with the most vulnerable members of the society to equip them with vital skills and knowledge and link these with existing
+             resources and opportunities identified in order to put them on the path towards self – reliance
+                      
             </p>
-            <a href="#" className="btn btn-primary" style={{marginBottom:"20px"}}>
-              Go somewhere 
+            <a href="#" className="btn btn-primary" style={{marginBottom:"20px", backgroundColor:"red"}}>
+              Read More
             </a>
           </div>
           
@@ -36,14 +32,13 @@ function Hero() {
         <img className='d-block w-100 img-fluid' src="./hesed/hero1.jpg" alt="image" />
         <div className="card-body">
             <br/>
-            <h5 className="card-title">Card title</h5>
+            <h5 className="card-title">Donate Towards A Worthy Cause</h5>
             <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            Any contribution will bring an impact in the lives of those intended. 
+            The project managers will provide regular updates on sponsored projects.
             </p>
-            <a href="#" className="btn btn-primary">
-              Go somewhere
-            </a>
+            <a href="#" className="btn btn-primary" style={{marginBottom:"20px", backgroundColor:"red"}}>
+              Make a Donation </a>
             <br/>
           </div>
       </Carousel.Item>
@@ -51,13 +46,13 @@ function Hero() {
         <img className='d-block w-100 img-fluid' src="./hesed/hero1.jpg" alt="image" />
         <div className="card-body">
             <br/>
-            <h5 className="card-title">Card title</h5>
+            <h5 className="card-title">Impactful Partnerships</h5>
             <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            Our programs are based on well researched community development 
+            proposals that ensure achievement of global millennium goals and poverty reduction.
             </p>
-            <a href="#" className="btn btn-primary">
-              Go somewhere
+            <a href="#" className="btn btn-primary" style={{marginBottom:"20px", backgroundColor:"red"}}>
+              Patner With Us
             </a>
 <br/>
           </div>

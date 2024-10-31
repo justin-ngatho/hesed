@@ -15,7 +15,7 @@ export default function SectionOne () {
             <h5>A calling to serve</h5>
             <h1>A Society with Access To All Basic Rights</h1>
             <br/><br/><br/>
-            <p>Voice of Reconciliation and Pacification works mainly with the most vulnerable members 
+            <p>HESED Africa works mainly with the most vulnerable members 
                 of the society to equip them with vital skills and knowledge and link these with existing 
                 resources and opportunities identified in order to put them on the path towards 
                 self – reliance.</p>
